@@ -1,0 +1,69 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.nav{ 
+	background-color: #ff0004;
+
+}
+
+body{
+	background-color:  #000000;
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+	color: #ffffff;
+
+}
+
+h2{
+	font-size: 25px;
+}
+
+
+/* huvud-innehåll */
+
+main {
+	text-align: left;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.huvud {
+  margin: 0 0;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+
+.huvud h1 {
+  margin-top: 0;
+}
+
+/* Sidfot också känd som footer */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000000;
+  text-align: center;
+  font-family: 'Yellowtail', cursive !important; 
+  font-size: 20px;
+}

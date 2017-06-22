@@ -1,0 +1,111 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Fällmans Hemsida</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Hem</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Menyer</a></li>
+                    <li><a href="menyval2.html">Drycker</a></li>
+                    <li><a href="menyval3.html">Öppetider</a></li>
+                    <li><a href="menyval4.html">Boka</a></li>
+                    <li><a href="menyval5.html">Kassa</a></li>
+                    <li><a href="menyval6.html">Leverantörer</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+     <h1> Drycker </h1> 
+
+<h2> Alkoholfritt: </h2>
+<p>Fanta / Zingo</p>
+<p>Coca-Cola / Pepsi</p>
+<p>Sprite / 7up </p>
+<p>Coca-Cola Zero / Pepsi Max</p>
+<p>Ramlösa</p>
+<p>Stockholms bästa kranvatten (on the house)</p>
+
+<h2>Rött:</h2>
+<p>Mont Redon Chateauneuf De Pape 2010 </p>
+<p>Black Stallion Cabernet Sauvignon 2011 </p>
+<p>Penfolds St. Herni Shiraz / Cab. Sauv.
+2008 </p>
+
+<h2>Vitt: </h2>
+<p>Chablis premier cru Brochard 2011</p>
+<p>Casal di Sera Verdichio 2014</p>
+<p>Penfolds bin 311 chardonnay 2012</p>
+
+<h2>Rosé:</h2>
+<p>Grande Recolte Cotes Du Provence 2016</p>
+<p>Minuty Cotes Du Provence 2016</p>
+<p>Muga Tempranillo / Garnacha 2015 </p>
+
+<h2>Mousserande:</h2>
+<p>Langlois, Cremant de Loire 2015</p>
+<p>Cava Cripta, Augusto Torello, 2014</p>
+<p>Champagne Pol Roger, Brut, 2008</p>
+<p>Champagne Bollinger, 2010</p>
+<p>Champagne, Rosé, Gosset 2010</p>
+<p>Champagne, Rosé, Lois Roederer 2010</p>
+<p>Chsmpagne, Blanc de blanc, Pierre Peters 2008</p>
+
+<h2>Öl:</h2>        
+<p>Norrlands Guld</p>
+<p>Kona Longboard lager</p>
+<p>Kona Big Wave Golden Ale</p>
+<p>Staropramen</p>
+<p>Kroenenburg</p>
+<p>Nils Oscars</p>
+ 
+ <div class="footer">
+
+    <p> Fällmans Kök</p>
+    </div>
+    </main>
+</body>
+<footer>
+    <h2> Kontakt: </h2>
+
+    <p>Här kan du kontakta oss.</p>
+    <p>Mailadress: fallmanskok@gmail.com</p>
+    <P>Telefonnummer: 070-765 43 21</P>
+</footer>
+</html>
+<!-- Lägg till bootstrap för kolumner, den till höger med signatur>
